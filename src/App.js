@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import HomeLanding from './components/HomeLanding';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Happy Hacking</h1>
+        <HomeLanding />
       </header>
     </div>
   );
